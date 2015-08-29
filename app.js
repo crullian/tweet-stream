@@ -1,7 +1,7 @@
 /** @jsx React.DOM **/
 
 var React = require('react');
-var TweetsApp = require('./components/TweetsApp');
+var TweetsApp = require('./components/TweetsApp.js');
 
 var initialState = JSON.parse(document.getElementById('initial-state').innerHTML);
 

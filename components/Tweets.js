@@ -1,7 +1,7 @@
 /** @jsx React.DOM */
 
 var React = require('react');
-var Tweet = require('./Tweet.react.js');
+var Tweet = require('./Tweet.js');
 
 module.exports = Tweets = React.createClass({
 
