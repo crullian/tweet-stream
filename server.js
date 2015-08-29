@@ -26,7 +26,7 @@ app.get('/page/:page/:skip', routes.page);
 app.use('/', express.static(__dirname + '/public/'));
 
 var server = http.createServer(app).listen(port, function() {
-  console.log('Extatic server listeming on port ' + port);
+  console.log('Ecstatic server listeming on port ' + port);
 });
 
 var io = require('socket.io').listen(server);
