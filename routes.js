@@ -7,7 +7,7 @@ module.exports = {
 
   index: function(req, res) {
     Tweet.getTweets(0,0, function(tweets, pages) {
-      var makrup = React.renderComponentToString(
+      var markup = React.renderComponentToString(
         TweetsApp({
           tweets: tweets
         })
