@@ -1,6 +1,6 @@
 var JSX = require('node-jsx').install();
 var React = require('react');
-var TweetsApp = require('./components/TweetsApp.js');
+var TweetsApp = require('./components/TweetsApp.react.js');
 var Tweet = require('./models/Tweet');
 
 module.exports = {

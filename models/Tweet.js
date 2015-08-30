@@ -10,7 +10,7 @@ var schema = new mongoose.Schema({
   screenname: String
 });
 
-schema.statics.getTweets = function(page, skip, cb) {
+schema.statics.getTweets = function(page, skip, callback) {
   var tweets = [];
   var start = (page * 10) + (skip * 1);
 
@@ -23,7 +23,7 @@ schema.statics.getTweets = function(page, skip, cb) {
         tweet.active = true;
       });
     }
-    cb(tweets);
+    callback(tweets);
   });
 };
 
